@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.todo{
+  background-color: #94e8ff;
+  border-radius: 10px;
+  margin: 20px;
+  border: 1px solid black;
+  width: 80%;
+  padding: 10px;
+}
+.todoStyle{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
